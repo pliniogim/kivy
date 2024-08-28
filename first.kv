@@ -1,0 +1,35 @@
+Interface:
+    orientation: "vertical"
+    Label:
+        markup: True
+        text: "[color=#FFBF00][b]Olá[/b][/color] Meu"
+        #color: 0.5,0.5,1,1
+        font_size: '32sp'
+    Button:
+        markup: True
+        text: "[color=#FFBF00][b]Olá[/b][/color] Mundi"
+        size_hint: None, None
+        size: 200,100
+        pos: root.width/2-100, root.height/2-50
+        #pos: 100,100
+        #size: default = 100x100px
+        color: 0.5,0.5,1,1
+        font_size: '16sp'
+        #disabled: True
+        #background_color: 0.5,0.5,1,1
+        background_normal: './files/img1.png'
+        background_down: './files/img2.png'
+        background_disabled_normal: './files/img1.png'
+        background_disabled_down: './files/img2.png'
+        #on_press: root.printing_message()
+        on_press: app.printing_message()
+        on_release: app.printing_message()
+    TextInput:
+        size_hint: 0.5, None
+        height: 100
+        multiline: False
+        pos_hint: {"center_x": 0.5}
+        hint_text: "Enter your name..."
+        on_text_validate:   root.printing_message()
+        on_focus: root.focus()
+        
