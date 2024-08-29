@@ -1,0 +1,18 @@
+Interface:
+    TextInput:
+        id: textInput
+        size_hint: 0.5, 0.1
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+        multiline: False
+        on_text_validate: root.display_information()
+    Label:
+        id: label
+        text: "nothing"
+        size_hint: 0.5, 0.1
+        pos_hint: {"center_x": 0.5, "center_y": 0.6}
+    Button:
+        text: "Click Me!"
+        size_hint: 0.5, 0.1
+        pos_hint: {"center_x": 0.5, "center_y": 0.7}
+        on_press: root.display_information()
+

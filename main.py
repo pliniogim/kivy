@@ -5,7 +5,8 @@ from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.label import Label
 from kivy.uix.textinput import TextInput
 
-# prioriza a definição em app
+# prioriza a definição em aplicativo
+
 
 class Interface(BoxLayout):
 
@@ -43,12 +44,12 @@ class FirstApp(App):
         layout = FloatLayout()
         label = Label(text="Este é um label",
                       font_size="32sp",
-                      color=(0.5,0.5,1,1),
+                      color=(0.5, 0.5, 1, 1),
                       size_hint=(0.3, 0.3),
-                      pos=(300,200)
+                      pos=(300, 200)
                       )
 
-        text_input = TextInput(size_hint=(0.3, 0.3),pos=(200,400))
+        text_input = TextInput(size_hint=(0.3, 0.3), pos=(200, 400))
 
         layout.add_widget(text_input)
         layout.add_widget(label)
