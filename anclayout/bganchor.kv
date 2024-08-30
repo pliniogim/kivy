@@ -1,0 +1,25 @@
+#: import BgBoxLayout Custom_Layouts
+Interface:
+    hex_code: "#1E45F3"
+    alpha: 0.2
+    anchor_x: "right"
+    anchor_y: "top"
+    padding: [20, 20, 20, 20]
+    spacing: 20
+
+    BgBoxLayout:
+        size: self.minimum_size
+        hex_code: "#1E45F3"
+        alpha: 0.5
+        Button:
+            alpha: 0.2
+            padding: [20, 20, 20, 20]
+            text: "1"
+            size_hint: None, None
+            spacing: 20
+            size: dp(100), dp(100)
+        Button:
+            text: "2"
+            size_hint: None, None
+            spacing: 20
+            size: dp(100), dp(100)
