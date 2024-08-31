@@ -1,6 +1,51 @@
 #: import BgBoxLayout Custom_Layouts
 #: import BgAnchorLayout Custom_Layouts
-Interface2:
+#: import BgGridLayout Custom_Layouts
+
+Interface3:
+    orientation: "vertical"
+    hex_code: "#1E45F3"
+    alpha: 0.2
+    padding: [50, 50, 50, 50]
+    spacing: 20
+
+    BgGridLayout:
+        size_hint: 1, 0.9
+        cols: 3
+        spacing: dp(20)
+        hex_code: "#1E45F3"
+        alpha: 0.2
+        Button:
+            text: "1"
+        Button:
+            text: "2"
+        Button:
+            text: "3"
+        Button:
+            text: "4"
+        Button:
+            text: "5"
+        Button:
+            text: "6"
+        Button:
+            text: "7"
+        Button:
+            text: "8"
+        Button:
+            text: "9"
+
+    BgGridLayout:
+        size_hint: 1, 0.1
+        rows: 1
+        hex_code: "#1E45F3"
+        alpha: 0.2
+        Button:
+            on_press: root.shuffle()
+            text: "Shuffle"
+
+
+
+<Interface2>:
     orientation: "vertical"
     hex_code: "#1E45F3"
     alpha: 0.2
