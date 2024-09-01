@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d0f4594-4e24-4a62-b37a-fbbfca830db6" name="Changes" comment="before apk">
-      <change afterPath="$PROJECT_DIR$/grdlayout/Custom_Layouts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grdlayout/bggrid.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grdlayout/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kivy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kivy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anclayout/bganchor.kv" beforeDir="false" afterPath="$PROJECT_DIR$/anclayout/bganchor.kv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anclayout/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/anclayout/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bxlayout/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bxlayout/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="6d0f4594-4e24-4a62-b37a-fbbfca830db6" name="Changes" comment="before apk" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724891818704</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="before apk">
+      <option name="closed" value="true" />
+      <created>1725064563077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725064563077</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">

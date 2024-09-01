@@ -2,7 +2,36 @@
 #: import BgAnchorLayout Custom_Layouts
 #: import BgGridLayout Custom_Layouts
 
-Interface3:
+Interface4:
+    hex_code: "#1E45F3"
+    alpha: 0.2
+    padding: [dp(50), dp(50), dp(50), dp(50)]
+    BgGridLayout:
+        col_default_width: dp(150)
+        col_force_default: True
+        row_default_height: dp(50)
+        row_force_default: True
+        size_hint: None, None
+        size: self.minimum_size
+        padding: [dp(50), dp(50), dp(50), dp(50)]
+        orientation: "bt-rl"
+        hex_code: "#1E45F3"
+        alpha: 0.2
+        cols: 2
+        Button:
+            text: "1"
+        Button:
+            text: "2"
+        Button:
+            text: "3"
+        Button:
+            text: "4"
+        Button:
+            text: "5"
+        Button:
+            text: "6"
+
+<Interface3>:
     orientation: "vertical"
     hex_code: "#1E45F3"
     alpha: 0.2
@@ -10,6 +39,7 @@ Interface3:
     spacing: 20
 
     BgGridLayout:
+        id: gridlayout
         size_hint: 1, 0.9
         cols: 3
         spacing: dp(20)
